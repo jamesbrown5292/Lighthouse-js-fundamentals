@@ -17,3 +17,6 @@ let calculateCircleArea = function (radius) {
   radius < 0 ? (result = undefined) : (result = Math.PI * (radius * radius));
   return result;
 };
+
+
+calculateRectangleArea(5, 6);
